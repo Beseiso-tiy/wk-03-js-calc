@@ -55,6 +55,12 @@
            color:#fff;
            padding:0 10px;
        }
+       .display {
+         font-size: 2.25em;
+         height: 80px;
+
+       }
+
        .button{
            display:flex;
            flex: 0 1 25%;
