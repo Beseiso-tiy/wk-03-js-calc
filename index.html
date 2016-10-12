@@ -11,32 +11,34 @@
     <!-- Start samp -->
     <div class="container">
         <div class="result">
-          <p><span id='display'></span></p>
+          <!-- <p><span id='display'></span></p> -->
+          Future Calculator Display
         </div>
 
         <div class="buttons">
             <span id="7" onClick="reply_click(this.id)" class="button number">7</span>
             <span id="8" onClick="reply_click(this.id)" class="button number">8</span>
             <span id="9" onClick="reply_click(this.id)" class="button number">9</span>
-            <span id="/" onClick="reply_click(this.id)" class="button operator">/</span>
+            <span id=" / " onClick="reply_click(this.id)" class="button operator">/</span>
 
             <span id="4" onClick="reply_click(this.id)" class="button number">4</span>
             <span id="5" onClick="reply_click(this.id)" class="button number">5</span>
             <span id="6" onClick="reply_click(this.id)" class="button number">6</span>
-            <span id="*" onClick="reply_click(this.id)" class="button operator">*</span>
+            <span id=" * " onClick="reply_click(this.id)" class="button operator">*</span>
 
             <span id="1" onClick="reply_click(this.id)" class="button number">1</span>
             <span id="2" onClick="reply_click(this.id)" class="button number">2</span>
             <span id="3" onClick="reply_click(this.id)" class="button number">3</span>
-            <span id="-" onClick="reply_click(this.id)" class="button operator">-</span>
+            <span id=" - " onClick="reply_click(this.id)" class="button operator">-</span>
 
             <span id="0" onClick="reply_click(this.id)" class="button number">0</span>
             <span id="." onClick="reply_click(this.id)" class="button point">.</span>
-            <span id="AC" onClick="reply_click(this.id)" class="button operator clear-btn">AC</span>
-            <span id=add_cb() onClick="reply_click(this.id)" class="button operator">+</span>
+            <span id="AC" onClick="window.location.reload()" class="button operator clear-btn">AC</span>
+            <span id=" + " onClick="reply_click(this.id)" class="button operator">+</span>
 
             <!-- <span id="=" onClick="reply_click(this.id)" class="button operator equal-btn">=</span> -->
-            <span id="=" onClick="reply_click(this.id)" class="equal-btn">=</span>
+            <span id="=" onClick="onEqual()" class="equal-btn">=</span>
+            <span id=" % " onClick="reply_click(this.id)" class="button operator">%</span>
 
         </div>
     </div>

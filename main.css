@@ -67,7 +67,7 @@
          cursor: pointer;
          font-size:2.8em;
          background: -webkit-linear-gradient(top, #ffaf4b 33%,#ff920a 52%);
-         flex-grow: 2;
+         flex-grow: 1;
          color: #fff;
        }
        .clear-btn{
